@@ -8,7 +8,7 @@ const { url, alt} = Astro.props;
 ---
 <section class="flex justify-center py-4">
     <div class="flex w-[800px] justify-between items-center">
-        <p class="text-wrap text-white text-left text-4xl w-60% font-bold"> Hola 👋, <br/> Mi nombre es Jimmy Berrios. <br/> Me dedico a construcción de paginas web y software a la medida.</p>
-        <img src={url} alt={alt} class="w-52 rounded-full border-4">
+        <p class="text-wrap text-white text-left text-4xl w-60% font-bold"> Hola 👋, <br/> Mi nombre es <span class="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">Jimmy Berrios. </span><br/> Construyo paginas web y software a la medida.</p>
+        <img src={url} alt={alt} class="w-52 rounded-full border-4 bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 border-transparent">
     </div>
 </section>
