@@ -1,0 +1,14 @@
+---
+interface Props {
+	url: string;
+    alt: string;
+}
+
+const { url, alt} = Astro.props;
+---
+<section class="flex justify-center py-4">
+    <div class="flex w-[800px] justify-between items-center">
+        <p class="text-wrap text-white text-left text-4xl w-60% font-bold"> Hola 👋, <br/> Mi nombre es Jimmy Berrios. <br/> Me dedico a construcción de paginas web y software a la medida.</p>
+        <img src={url} alt={alt} class="w-52 rounded-full border-4">
+    </div>
+</section>
