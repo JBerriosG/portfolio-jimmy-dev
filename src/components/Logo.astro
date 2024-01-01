@@ -1,0 +1,9 @@
+---
+interface Props {
+	url: string;
+    alt: string;
+}
+
+const { url, alt} = Astro.props;
+---
+<img src={url} alt={alt} class=" w-20 rounded-full border">

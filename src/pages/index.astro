@@ -1,13 +1,16 @@
 ---
 import Intro from '../components/Intro.astro';
 import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Stack from '../components/Stack.astro';
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Bienvenidos al portfolio de Jimmy Dev.">
 	<main>
+		<Header />
 		<Intro url='/images/retrato.jpg' alt='Foto de Jimmy Berrios Gallo' />
-		<!-- <Stack />
-		<Projects />
+		<Stack />
+		<!-- <Projects />
 		<PreFooter />
 		<Footer /> -->
 	</main>
