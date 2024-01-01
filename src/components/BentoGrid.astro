@@ -1,0 +1,89 @@
+---
+import BentoItem from "./BentoItem.astro";
+---
+
+<h1 class="text-center text-4xl text-white py-4 font-bold">Proyectos</h1>
+<section
+  class="w-full max-w-[1000px]
+grid grid-cols-12 auto-rows-[25rem] gap-4
+mx-auto py-20"
+>
+  <BentoItem title="Fabrica de api's" class="col-span-12 md:col-span-5">
+    <div
+      slot="image"
+      class="absolute left-0 top-0 bottom-0 w-full h-full
+    group-hover:scale-110 transition-scale duration-1000
+    ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover 
+    bg-no-repeat -z-10"
+      style="background-image: url('/mallplaza.svg');"
+    >
+    </div>
+    <p slot="content" class="max-w-xl">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quas
+      cupiditate deserunt doloremque quo libero dicta debitis quisquam
+      voluptates at in labore expedita repudiandae maxime, excepturi praesentium
+      velit aut consequatur!
+    </p>
+  </BentoItem>
+  <BentoItem
+    title="Proyecto 1"
+    subtitle="Hecho con Unity"
+    class="col-span-12 md:col-span-7"
+  >
+    <div
+      slot="image"
+      class="absolute left-0 top-0 bottom-0 w-full h-full
+    group-hover:scale-110 transition-scale duration-1000
+    ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover 
+    bg-no-repeat -z-10"
+      style="background-image: url('/images/unityLearn.webp');"
+    >
+    </div>
+    <p slot="content" class="max-w-xl">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id provident
+      quas, animi perferendis expedita sit ratione dolor, distinctio deleniti
+      tempore necessitatibus nobis ea architecto nihil reiciendis recusandae quo
+      quaerat suscipit.
+    </p>
+  </BentoItem>
+  <BentoItem
+    title="Proyecto 2"
+    subtitle="Hecho con Unity"
+    class="col-span-12 md:col-span-6"
+  >
+    <div
+      slot="image"
+      class="absolute left-0 top-0 bottom-0 w-full h-full
+    group-hover:scale-110 transition-scale duration-1000
+    ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover 
+    bg-no-repeat -z-10"
+      style="background-image: url('/images/unityLearn.webp');"
+    >
+    </div>
+    <p slot="content" class="max-w-xl">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio qui
+      provident tempore veniam ea accusantium, ab vero facilis error dolor animi
+      sapiente, unde autem praesentium incidunt nulla sed hic enim!
+    </p>
+  </BentoItem>
+  <BentoItem
+    title="Proyecto 3"
+    subtitle="Hecho con Unity"
+    class="col-span-12 md:col-span-6"
+  >
+    <div
+      slot="image"
+      class="absolute left-0 top-0 bottom-0 w-full h-full
+    group-hover:scale-110 transition-scale duration-1000
+    ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover
+    bg-no-repeat -z-10"
+      style="background-image: url('/images/unityLearn.webp');"
+    >
+    </div>
+    <p slot="content" class="max-w-xl">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ad
+      laboriosam qui nulla, delectus sint fuga itaque inventore et nam, quae
+      laudantium asperiores cum velit maxime possimus id hic necessitatibus.
+    </p>
+  </BentoItem>
+</section>

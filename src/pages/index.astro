@@ -3,17 +3,20 @@ import Intro from '../components/Intro.astro';
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Stack from '../components/Stack.astro';
+import BentoGrid from '../components/BentoGrid.astro';
 ---
 
-<Layout title="Bienvenidos al portfolio de Jimmy Dev.">
+<Layout 
+title="Bienvenidos al portfolio de Jimmy Dev"
+description="Portafolio de desarrollo web y software a la medida.">
 	<main>
 		<Header />
 		<Intro url='/images/retrato.jpg' alt='Foto de Jimmy Berrios Gallo' />
 		<Stack />
-		<!-- <Projects />
-		<PreFooter />
-		<Footer /> -->
+		<BentoGrid/>
+		<!-- <PreFooter /> -->
 	</main>
+	<!-- <Footer /> -->
 </Layout>
 
 <style>
