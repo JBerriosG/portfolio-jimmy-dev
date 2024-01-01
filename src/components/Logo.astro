@@ -1,9 +1,10 @@
 ---
 interface Props {
+    class?:string;
 	url: string;
     alt: string;
 }
 
 const { url, alt} = Astro.props;
 ---
-<img src={url} alt={alt} class=" w-20 rounded-full border">
+<img src={url} alt={alt} class={`${Astro.props.class} rounded-full border`}>
