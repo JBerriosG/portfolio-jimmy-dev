@@ -5,7 +5,7 @@ import BentoItem from "./BentoItem.astro";
 <h1 class="text-center text-4xl text-white py-4 font-bold">Proyectos</h1>
 <section
   class="w-full max-w-[1000px]
-grid grid-cols-12 auto-rows-[25rem] gap-4
+grid grid-cols-12 auto-rows-[30rem] gap-4
 mx-auto py-20"
 >
   <BentoItem title="Fabrica de api's" class="col-span-12 md:col-span-5">
@@ -13,18 +13,23 @@ mx-auto py-20"
       slot="image"
       class="absolute left-0 top-0 bottom-0 w-full h-full
     group-hover:scale-110 transition-scale duration-1000
-    ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover 
+    ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover
     bg-no-repeat -z-10"
       style="background-image: url('/mallplaza.svg');"
     >
     </div>
     <p slot="content" class="max-w-xl">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quas
-      cupiditate deserunt doloremque quo libero dicta debitis quisquam
-      voluptates at in labore expedita repudiandae maxime, excepturi praesentium
-      velit aut consequatur!
+      Uno de los últimos proyectos en el que nos dedicamos a crear <strong
+        >api's para integracion entre sap y salesforce y viceversa</strong
+      >. Todo esto creando componentes en <strong>Java y SpringBoot</strong> y
+      desplegandolos en <strong>cloud run's en GCP</strong>. Manejamos la
+      <strong>trazabilidad</strong> de las api's <strong
+        >subiendo los logs a Datadog en formato JSON</strong
+      >.
     </p>
-    <h4 slot="stack">Tech stack: Java, springboot, GCP.</h4>
+    <h4 slot="stack">
+      Tech stack: Java, springboot, GCP: cloud run , Datadog.
+    </h4>
   </BentoItem>
   <BentoItem
     title="Proyecto 1"
@@ -35,7 +40,7 @@ mx-auto py-20"
       slot="image"
       class="absolute left-0 top-0 bottom-0 w-full h-full
     group-hover:scale-110 transition-scale duration-1000
-    ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover 
+    ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover
     bg-no-repeat -z-10"
       style="background-image: url('/images/unityLearn.webp');"
     >
@@ -57,7 +62,7 @@ mx-auto py-20"
       slot="image"
       class="absolute left-0 top-0 bottom-0 w-full h-full
     group-hover:scale-110 transition-scale duration-1000
-    ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover 
+    ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover
     bg-no-repeat -z-10"
       style="background-image: url('/images/unityLearn.webp');"
     >
@@ -69,25 +74,26 @@ mx-auto py-20"
     </p>
     <h4 slot="stack">Tech stack: Unity, Blender, C#.</h4>
   </BentoItem>
-  <BentoItem
-    title="Proyecto 3"
-    subtitle="Hecho con Unity"
-    class="col-span-12 md:col-span-6"
-  >
+  <BentoItem title="Fabrica de Functions" class="col-span-12 md:col-span-6">
     <div
       slot="image"
       class="absolute left-0 top-0 bottom-0 w-full h-full
     group-hover:scale-110 transition-scale duration-1000
     ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover
     bg-no-repeat -z-10"
-      style="background-image: url('/images/unityLearn.webp');"
+      style="background-image: url('/mallplaza.svg');"
     >
     </div>
     <p slot="content" class="max-w-xl">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ad
-      laboriosam qui nulla, delectus sint fuga itaque inventore et nam, quae
-      laudantium asperiores cum velit maxime possimus id hic necessitatibus.
+      Este proyecto se trata de una <strong
+        >extensión de la fabrica de api's</strong
+      >. En particular en este proyecto nos dedicamos a <strong
+        >crear cloud functions en GCP programadas en NodeJS version 20</strong
+      >, para la <strong>correcta integracion entre sap y salesforce</strong> y
+      viceversa <strong>en tareas que no requieren de un cloud run</strong>.
     </p>
-    <h4 slot="stack">Tech stack: Unity, Blender, C#.</h4>
+    <h4 slot="stack">
+      Tech stack: NodeJS, GCP: cloud functions | cloud storage.
+    </h4>
   </BentoItem>
 </section>
