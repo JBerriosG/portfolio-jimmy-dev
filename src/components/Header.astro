@@ -5,14 +5,14 @@ import Icon from "./Icon.astro";
 
 <header class="w-full">
   <nav
-    class="flex justify-around md:justify-between font-bold text-white/30"
+    class="flex justify-around md:justify-between font-bold text-white/30 transition-colors"
   >
     <Logo url="/images/logo.jpg" alt="Logo del canal de youtube" class="w-16 h-16 md:w-20 md:h-20" />
     <div class="flex flex-col md:flex-row gap-8 md:gap-20">
         <div class="flex flex-row  justify-center gap-4 items-center">
-          <a href="#">Inicio</a>
-          <a href="#stack">Tech Stack</a>
-          <a href="#projects">Proyectos</a>
+          <a href="#" class="hover:text-[#f4f100]">Inicio</a>
+          <a href="#stack" class="hover:text-[#f4f100]">Tech Stack</a>
+          <a href="#projects" class="hover:text-[#f4f100]">Proyectos</a>
         </div>
         <div class="flex flex-row justify-evenly gap-4 items-center">
           <Icon
