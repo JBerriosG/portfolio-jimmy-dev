@@ -1,5 +1,6 @@
 ---
 interface Props {
+    class?:string;
     enlace?: string;
 	url: string;
     alt: string;
@@ -8,5 +9,5 @@ interface Props {
 const { url, alt, enlace} = Astro.props;
 ---
 <a href={enlace}>
-    <img src={url} alt={alt} class="w-8 hover:scale-110 transition-all">
+    <img src={url} alt={alt} class=`${Astro.props.class} hover:scale-125 transition-all`>
 </a>
