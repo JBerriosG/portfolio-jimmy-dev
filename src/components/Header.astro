@@ -1,6 +1,8 @@
 ---
 import Logo from "../components/Logo.astro";
 import Icon from "./Icon.astro";
+import { t } from "i18next";
+import { LanguageSelector } from "astro-i18next/components";
 ---
 
 <header id="header-nav" class="w-screen top-0 z-50 fixed">
@@ -10,27 +12,29 @@ import Icon from "./Icon.astro";
     <Logo url="/images/logo.jpg" alt="Logo del canal de youtube" class="w-16 h-16 md:w-20 md:h-20" />
     <div class="flex flex-col md:flex-row gap-8 md:gap-20">
         <div class="flex flex-row  justify-center gap-4 items-center">
-          <a href="#">Inicio</a>
-          <a href="#stack">Tech Stack</a>
-          <a href="#projects">Proyectos</a>
+          <a href="#">{t("header.nav.home")}</a>
+          <a href="#stack">{t("header.nav.stack")}</a>
+          <a href="#projects">{t("header.nav.projects")}</a>
+          <LanguageSelector showFlag={true} class="rounded-md border" />
+
         </div>
         <div class="flex flex-row justify-evenly gap-4 items-center">
           <Icon
             enlace="https://github.com/JBerriosG"
             url="/github.svg"
-            alt="Logo de github"
+            alt={t("icon.github.alt")}
             class="w-8"
           />
           <Icon
             enlace="www.youtube.com/@JimmyDevAndGeek"
             url="/youtube.svg"
-            alt="Logo de youtube"
+            alt={t("icon.youtube.alt")}
             class="w-8"
           />
           <Icon
             enlace="https://www.instagram.com/jberriosgallo/"
             url="/Instagram.svg"
-            alt="Logo de instagram"
+            alt={t("icon.instagram.alt")}
             class="w-8"
           />
         </div>

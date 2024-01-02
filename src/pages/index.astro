@@ -1,19 +1,23 @@
 ---
-import Intro from '../components/Intro.astro';
-import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import Stack from '../components/Stack.astro';
-import BentoGrid from '../components/BentoGrid.astro';
-import PreFooter from '../components/PreFooter.astro';
-import Footer from '../components/Footer.astro';
+import Intro from "../components/Intro.astro";
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Stack from "../components/Stack.astro";
+import BentoGrid from "../components/BentoGrid.astro";
+import PreFooter from "../components/PreFooter.astro";
+import Footer from "../components/Footer.astro";
+import i18next, { t, changeLanguage } from "i18next";
+
+changeLanguage("es");
 ---
 
 <Layout 
-title="Bienvenidos al portfolio de Jimmy Dev"
-description="Portafolio de desarrollo web y software a la medida.">
+title={t("layout.title")}
+description={t("layout.description")}
+lang={i18next.language}>
 	<main>
 		<Header />
-		<Intro url='/images/retrato.jpg' alt='Foto de Jimmy Berrios Gallo' />
+		<Intro url='/images/retrato.jpg' alt={t("intro.alt")} />
 		<Stack />
 		<BentoGrid/>
 		<PreFooter/>

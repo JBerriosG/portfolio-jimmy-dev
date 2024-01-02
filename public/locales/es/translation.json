@@ -1,0 +1,62 @@
+{
+    "layout":{
+        "title":"Bienvenidos al portfolio de Jimmy Dev",
+        "description":"Portafolio de desarrollo web y software a la medida.",
+        "lang":"es"
+    },
+    "intro":{
+        "alt":"Foto frontal de Jimmy Berrios Gallo",
+        "parrafo":"Hola 👋, <0> Mi nombre es <1>Jimmy Berrios. </1><2> Construyo webs y software a la medida."
+    },
+    "header":{
+        "nav":{
+            "home":"Inicio",
+            "stack":"Tech Stack",
+            "projects":"Proyectos"
+        }
+    },
+    "logo":{
+        "alt":"Logo del canal de youtube"
+    },
+    "icon":{
+        "github":{
+            "alt":"Logo de github"
+        },
+        "youtube":{
+            "alt":"Logo de youtube"
+        },
+        "instagram":{
+            "alt":"Logo de instagram"
+        }
+    },
+    "stack":{
+        "title":"Mi Stack Tecnológico",
+        "subtitle":"Tecnologías que he estado trabajando recientemente"
+    },
+    "bento":{
+        "title":"Proyectos",
+        "item1":{
+            "title":"Fabrica de API's",
+            "subtitle":"",
+            "content":"Uno de los últimos proyectos en el que nos dedicamos a crear <0>api's para integracion entre sap y salesforce y viceversa</0>. Todo esto creando componentes en <1>Java y SpringBoot</1> y desplegandolos en <2>cloud run's en GCP</2>. Manejamos la <3>trazabilidad</3> de las api's <4>subiendo los logs a Datadog en formato JSON</4>."
+        },
+        "item2":{
+            "title":"Portafolio Jimmy Dev",
+            "subtitle":"Mi portafolio hecho con Astro",
+            "content":"Dejo mi <0>portafolio</0> como parte de mis proyectos recientes ya que fue una manera de poder aprender a usar la tecnología de <1>Astro</1>. Un <2>framework web con mucho potencial</2> y que es <3>una promesa futura</3> en palabras del <4>gran programador Español Miguel Angel Duran (MiduDev)</4>."
+        },
+        "item3":{
+            "title":"Proyectos de Unity",
+            "subtitle":"Programador Junior de Unity",
+            "content":"He comenzado ya hace unos 2 meses la ruta para certificación de <0>Programador Junior de Unity</0> en la academia de <1>Unity Learn</1>. Hasta el momento llevo un total de <2>4 proyectos</2> realizados bajo la guía de profesor de la academia. Todos los proyectos se encuentran actualizados gracias a la <3>nueva herramienta de control de versiones de Unity</3>. Muy parecido a como funciona git para los que programamos normalmente para web y demas."
+        },
+        "item4":{
+            "title":"Fabrica de Functions",
+            "subtitle":"",
+            "content":"Este proyecto se trata de una <0>extensión de la fabrica de api's</0>. En particular en este proyecto nos dedicamos a <1>crear cloud functions en GCP programadas en NodeJS version 20</1>, para la <2>correcta integracion entre sap y salesforce</2> y viceversa <3>en tareas que no requieren de un cloud run</3>."
+        }
+    },
+    "footer":{
+        "copyright":"Diseñado por <0>Jimmy Berrios. </0>"
+    }
+}

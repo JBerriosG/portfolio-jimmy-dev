@@ -1,0 +1,30 @@
+---
+import Intro from "../../components/Intro.astro";
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Stack from "../../components/Stack.astro";
+import BentoGrid from "../../components/BentoGrid.astro";
+import PreFooter from "../../components/PreFooter.astro";
+import Footer from "../../components/Footer.astro";
+import i18next, { t, changeLanguage } from "i18next";
+
+changeLanguage("en");
+---
+
+<Layout 
+title={t("layout.title")}
+description={t("layout.description")}
+lang={i18next.language}>
+	<main>
+		<Header />
+		<Intro url='/images/retrato.jpg' alt={t("intro.alt")} />
+		<Stack />
+		<BentoGrid/>
+		<PreFooter/>
+	</main>
+	<Footer />
+</Layout>
+
+<style>
+	
+</style>

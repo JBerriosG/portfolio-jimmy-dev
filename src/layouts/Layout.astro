@@ -1,15 +1,17 @@
 ---
 import "@fontsource-variable/onest";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
 interface Props {
   title: string;
   description: string;
+  lang:string;
 }
 
-const { title, description } = Astro.props;
+const { title, description, lang } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en" class="scroll-smooth">
+<html lang={lang} class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
@@ -17,6 +19,7 @@ const { title, description } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
+    <HeadHrefLangs/>
   </head>
   <body class="py-4 md:py-8">
     <slot />

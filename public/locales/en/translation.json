@@ -1,0 +1,62 @@
+{
+    "layout":{
+        "title":"Welcome to Jimmy Dev's portfolio",
+        "description":"Web development and custom software portfolio.",
+        "lang":"es"
+    },
+    "intro":{
+        "alt":"Front photo of Jimmy Berrios Gallo",
+        "parrafo":"Hi 👋, <0> My name is <1>Jimmy Berrios. </1><2> I build custom websites and software."
+    },
+    "header":{
+        "nav":{
+            "home":"Home",
+            "stack":"Tech Stack",
+            "projects":"Projects"
+        }
+    },
+    "logo":{
+        "alt":"Youtube channel logo"
+    },
+    "icon":{
+        "github":{
+            "alt":"Github logo"
+        },
+        "youtube":{
+            "alt":"Youtube logo"
+        },
+        "instagram":{
+            "alt":"Instagram logo"
+        }
+    },
+    "stack":{
+        "title":"My Technological Stack",
+        "subtitle":"Technologies I've been working on recently"
+    },
+    "bento":{
+        "title":"Projects",
+        "item1":{
+            "title":"API's Factory",
+            "subtitle":"",
+            "content":"One of the latest projects in which we are dedicated to creating <0>api's for integration between SAP and Salesforce and vice versa</0>. All this by creating components in <1>Java and SpringBoot</1> and deploying them in <2>cloud run's in GCP</2>. We manage the <3>traceability</3> of the APIs <4>uploading the logs to Datadog in JSON format</4>."
+        },
+        "item2":{
+            "title":"Jimmy Dev Portfolio",
+            "subtitle":"My portfolio made with Astro",
+            "content":"I leave my <0>portfolio</0> as part of my recent projects since it was a way to learn how to use <1>Astro</1> technology. A <2>web framework with a lot of potential</2> and that is <3>a future promise</3> in the words of the <4>great Spanish programmer Miguel Angel Duran (MiduDev)</4>."
+        },
+        "item3":{
+            "title":"Unity Projects",
+            "subtitle":"Junior Unity Programmer",
+            "content":"About 2 months ago I started the <0>Unity Junior Programmer</0> certification route at the <1>Unity Learn</1> academy. So far I have a total of <2>4 projects</2> carried out under the guidance of the academy professor. All projects are up to date thanks to the <3>new Unity version control tool</3>. Very similar to how git works for those of us who normally program for the web and so on."
+        },
+        "item4":{
+            "title":"Functions Factory",
+            "subtitle":"",
+            "content":"This project is an <0>extension of the API's factory</0>. In particular, in this project we are dedicated to <1>creating cloud functions in GCP programmed in NodeJS version 20</1>, for the <2>correct integration between SAP and Salesforce</2> and vice versa <3>in tasks that do not require a cloud run</3>."
+        }
+    },
+    "footer":{
+        "copyright":"Designed by <0>Jimmy Berrios. </0>"
+    }
+}
