@@ -6,7 +6,7 @@
     },
     "intro":{
         "alt":"Foto frontal de Jimmy Berrios Gallo",
-        "parrafo":"Hola 👋, <0> Mi nombre es <1>Jimmy Berrios. </1><2> Construyo webs y software a la medida."
+        "parrafo":"Hola 👋, <0> Mi nombre es <1>Jimmy Berrios Gallo. </1><2> Construyo webs y software a la medida."
     },
     "header":{
         "nav":{
@@ -57,6 +57,6 @@
         }
     },
     "footer":{
-        "copyright":"Diseñado por <0>Jimmy Berrios. </0>"
+        "copyright":"Diseñado por <0>Jimmy Berrios Gallo. </0>"
     }
 }

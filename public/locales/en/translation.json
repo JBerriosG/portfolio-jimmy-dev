@@ -6,7 +6,7 @@
     },
     "intro":{
         "alt":"Front photo of Jimmy Berrios Gallo",
-        "parrafo":"Hi 👋, <0> My name is <1>Jimmy Berrios. </1><2> I build custom websites and software."
+        "parrafo":"Hi 👋, <0> My name is <1>Jimmy Berrios Gallo. </1><2> I build custom websites and software."
     },
     "header":{
         "nav":{
@@ -57,6 +57,6 @@
         }
     },
     "footer":{
-        "copyright":"Designed by <0>Jimmy Berrios. </0>"
+        "copyright":"Designed by <0>Jimmy Berrios Gallo. </0>"
     }
 }
