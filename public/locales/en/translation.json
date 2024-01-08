@@ -6,7 +6,7 @@
     },
     "intro":{
         "alt":"Front photo of Jimmy Berrios Gallo",
-        "parrafo":"Hi 👋, <0> My name is <1>Jimmy Berrios Gallo. </1><2> I build custom websites and software."
+        "parrafo":"Hi 👋, <0> My name is <1>Jimmy Berrios Gallo. </1><2> I build custom websites and software.<3>If you need me, I'll leave you my email: <4>jberriosgallo@gmail.com</4>"
     },
     "header":{
         "nav":{
@@ -34,7 +34,7 @@
         "subtitle":"Technologies I've been working on recently"
     },
     "bento":{
-        "title":"Projects",
+        "title":"Recent Projects",
         "item1":{
             "title":"API's Factory",
             "subtitle":"",
@@ -54,6 +54,11 @@
             "title":"Functions Factory",
             "subtitle":"",
             "content":"This project is an <0>extension of the API's factory</0>. In particular, in this project we are dedicated to <1>creating cloud functions in GCP programmed in NodeJS version 20</1>, for the <2>correct integration between SAP and Salesforce</2> and vice versa <3>in tasks that do not require a cloud run</3>."
+        },
+        "item5":{
+            "title":"Andacollite Mine Page",
+            "subtitle":"",
+            "content":"Page created to promote the quartz beds of the <0>andacollite mine</0>, which is located in the <1>Atacama Region</1> in the <2>city of Copiapó</2>. The entire project was <3>carried out with Astro</3>, is <4>fully responsive</4> and was developed under the <5>mobile first</5> modality."
         }
     },
     "footer":{
