@@ -1,8 +1,12 @@
 ---
 import Logo from "../components/Logo.astro";
 import Icon from "./Icon.astro";
-import { t } from "i18next";
 import { LanguageSelector } from "astro-i18next/components";
+import i18next, { t, changeLanguage } from "i18next";
+let url = "/";
+if (i18next.language == "en") {
+  url = "/en/"
+}
 ---
 
 <header id="header-nav" class="w-screen top-0 z-50 fixed">
@@ -16,9 +20,10 @@ import { LanguageSelector } from "astro-i18next/components";
     />
     <div class="flex flex-col md:flex-row gap-4 md:gap-8">
       <div class="flex flex-row justify-center gap-4 items-center">
-        <a href="#">{t("header.nav.home")}</a>
-        <a href="#stack">{t("header.nav.stack")}</a>
-        <a href="#projects">{t("header.nav.projects")}</a>
+        <a href={url}>{t("header.nav.home")}</a>
+        <a href={url + "#stack"}>{t("header.nav.stack")}</a>
+        <a href={url + "#projects"}>{t("header.nav.projects")}</a>
+        <a href={url + "unityProjects"}>{t("header.nav.unity")}</a>
       </div>
       <div class="flex flex-row justify-evenly gap-4 items-center">
         <Icon

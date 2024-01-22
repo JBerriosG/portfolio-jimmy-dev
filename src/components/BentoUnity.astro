@@ -1,0 +1,95 @@
+---
+import BentoUnityItem from "./BentoUnityItem.astro";
+import { Trans } from "astro-i18next/components";
+import { t } from "i18next";
+---
+
+<h1 id="unity" class="text-center text-4xl text-white pt-40 font-bold">
+  {t("unity.title")}
+</h1>
+<section
+  class="w-full max-w-[1000px]
+grid grid-cols-12 auto-rows-[35rem] gap-4
+mx-auto py-20 font-semibold px-4 md:px-2"
+>
+  <BentoUnityItem
+    title={t("unity.item1.title")}
+    subtitle={t("unity.item1.subtitle")}
+    class="col-span-12 md:col-span-7"
+  >
+    <div
+      slot="image"
+      class="absolute left-0 top-0 bottom-0 w-full h-full
+    group-hover:scale-110 transition-scale duration-1000
+    ease-in-out opacity-90 bg-blend-luminosity bg-slate-950/50 bg-center bg-cover
+    bg-no-repeat -z-10"
+      style="background-image: url('/images/unityLearn.webp');"
+    >
+    </div>
+    <p slot="content" class="max-w-xl text-justify">
+      <Trans i18nKey="unity.item1.content">
+        Prototipo 2
+      </Trans>
+    </p>
+  </BentoUnityItem>
+  <BentoUnityItem
+    title={t("unity.item2.title")}
+    subtitle={t("unity.item2.subtitle")}
+    class="col-span-12 md:col-span-5"
+  >
+    <div
+      slot="image"
+      class="absolute left-0 top-0 bottom-0 w-full h-full
+    group-hover:scale-110 transition-scale duration-1000
+    ease-in-out opacity-90 bg-blend-luminosity bg-slate-950/50 bg-center bg-cover
+    bg-no-repeat -z-10"
+      style="background-image: url('/images/unityLearn.webp');"
+    >
+    </div>
+    <p slot="content" class="max-w-xl text-justify">
+      <Trans i18nKey="unity.item2.content">
+        Prototipo 3
+      </Trans>
+    </p>
+  </BentoUnityItem>
+  <BentoUnityItem
+    title={t("unity.item3.title")}
+    subtitle={t("unity.item3.subtitle")}
+    class="col-span-12 md:col-span-5"
+  >
+    <div
+      slot="image"
+      class="absolute left-0 top-0 bottom-0 w-full h-full
+    group-hover:scale-110 transition-scale duration-1000
+    ease-in-out opacity-90 bg-blend-luminosity bg-slate-950/50 bg-center bg-cover
+    bg-no-repeat -z-10"
+      style="background-image: url('/images/unityLearn.webp');"
+    >
+    </div>
+    <p slot="content" class="max-w-xl text-justify">
+      <Trans i18nKey="unity.item3.content">
+        Prototipo 4
+      </Trans>
+    </p>
+  </BentoUnityItem>
+  <BentoUnityItem
+    title={t("unity.item4.title")}
+    subtitle={t("unity.item4.subtitle")}
+    class="col-span-12 md:col-span-7"
+  >
+    <div
+      slot="image"
+      class="absolute left-0 top-0 bottom-0 w-full h-full
+    group-hover:scale-110 transition-scale duration-1000
+    ease-in-out opacity-90 bg-blend-luminosity bg-slate-950/50 bg-center bg-cover
+    bg-no-repeat -z-10"
+      style="background-image: url('/images/unityLearn.webp');"
+    >
+    </div>
+    <p slot="content" class="max-w-xl text-justify">
+      <Trans i18nKey="unity.item4.content">
+        Prototipo 5
+      </Trans>
+    </p>
+  </BentoUnityItem>
+</section>

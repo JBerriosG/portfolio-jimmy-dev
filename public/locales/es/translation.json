@@ -12,7 +12,8 @@
         "nav":{
             "home":"Inicio",
             "stack":"Tech Stack",
-            "projects":"Proyectos"
+            "projects":"Proyectos",
+            "unity":"Proyectos Unity"
         }
     },
     "logo":{
@@ -59,6 +60,29 @@
             "title":"Página de Mina Andacollita",
             "subtitle":"",
             "content":"Página realizada para promocionar las camas de cuarzo de la <0>mina andacollita</0>, la cual se encuentra en la <1>Región de Atacama</1> en la <2>ciudad de Copiapó</2>. Todo el proyecto fue <3>realizado con Astro</3>, es <4>totalmente responsivo</4> y fue desarrollado bajo la modalidad <5>mobile first</5>."
+        }
+    },
+    "unity":{
+        "title":"Proyectos de Unity",
+        "item1":{
+            "title":"Prototipo 2",
+            "subtitle":"",
+            "content":"Prototipo 2"
+        },
+        "item2":{
+            "title":"Prototipo 3",
+            "subtitle":"",
+            "content":"Prototipo 3"
+        },
+        "item3":{
+            "title":"Prototipo 4",
+            "subtitle":"",
+            "content":"Prototipo 4"
+        },
+        "item4":{
+            "title":"Prototipo 5",
+            "subtitle":"",
+            "content":"Prototipo 5"
         }
     },
     "footer":{

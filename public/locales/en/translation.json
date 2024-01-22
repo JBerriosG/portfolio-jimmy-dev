@@ -12,7 +12,8 @@
         "nav":{
             "home":"Home",
             "stack":"Tech Stack",
-            "projects":"Projects"
+            "projects":"Projects",
+            "unity":"Unity Projects"
         }
     },
     "logo":{
@@ -59,6 +60,29 @@
             "title":"Andacollite Mine Page",
             "subtitle":"",
             "content":"Page created to promote the quartz beds of the <0>andacollite mine</0>, which is located in the <1>Atacama Region</1> in the <2>city of Copiapó</2>. The entire project was <3>carried out with Astro</3>, is <4>fully responsive</4> and was developed under the <5>mobile first</5> modality."
+        }
+    },
+    "unity":{
+        "title":"Unity Projects",
+        "item1":{
+            "title":"Prototype 2",
+            "subtitle":"",
+            "content":"Prototype 2"
+        },
+        "item2":{
+            "title":"Prototype 3",
+            "subtitle":"",
+            "content":"Prototype 3"
+        },
+        "item3":{
+            "title":"Prototype 4",
+            "subtitle":"",
+            "content":"Prototype 4"
+        },
+        "item4":{
+            "title":"Prototype 5",
+            "subtitle":"",
+            "content":"Prototype 5"
         }
     },
     "footer":{
