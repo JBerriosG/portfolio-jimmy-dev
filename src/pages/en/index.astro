@@ -9,13 +9,32 @@ import Footer from "../../components/Footer.astro";
 import i18next, { t, changeLanguage } from "i18next";
 
 changeLanguage("en");
+
+const anim = {
+    old: {
+        name: "fadeIn",
+        duration: "0.2s",
+        easing: "linear",
+        fillMode: "forwards",
+    },
+    new: {
+        name: "fadeOut",
+        duration: "0.3s",
+        easing: "linear",
+        fillMode: "backwards",
+    }
+};
+const myFade = {
+    forwards: anim,
+    backwards: anim,
+};
 ---
 
 <Layout 
 title={t("layout.title")}
 description={t("layout.description")}
 lang={i18next.language}>
-	<main>
+	<main transition:animate={myFade}>
 		<Header />
 		<Intro url='/images/retrato.jpg' alt={t("intro.alt")} />
 		<Stack />

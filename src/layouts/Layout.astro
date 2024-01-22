@@ -1,5 +1,6 @@
 ---
 import "@fontsource-variable/onest";
+import { ViewTransitions, fade } from 'astro:transitions';
 import { Trans, HeadHrefLangs } from "astro-i18next/components";
 interface Props {
   title: string;
@@ -19,6 +20,7 @@ const { title, description, lang } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
+    <ViewTransitions />
     <HeadHrefLangs/>
   </head>
   <body class="py-4 md:py-8">
